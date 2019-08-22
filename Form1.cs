@@ -76,10 +76,10 @@ namespace SkypeDemo
         {
             if (Hidden)
             {
-                PanelSlide.Width = PanelSlide.Width + 10;
-                rtxtConversation.Width = rtxtConversation.Width - 10;
-                txtMessage.Width = txtMessage.Width - 10;
-                btnSend.Left += -10;
+                PanelSlide.Width = PanelSlide.Width + 20;
+                rtxtConversation.Width = rtxtConversation.Width - 20;
+                txtMessage.Width = txtMessage.Width - 20;
+                btnSend.Left += -20;
 
                 if (PanelSlide.Width >= panelWidth)
                 {
@@ -90,10 +90,10 @@ namespace SkypeDemo
             }
             else
             {
-                PanelSlide.Width = PanelSlide.Width - 10;
-                rtxtConversation.Width = rtxtConversation.Width + 10;
-                txtMessage.Width = txtMessage.Width + 10;
-                btnSend.Left += 10;
+                PanelSlide.Width = PanelSlide.Width - 20;
+                rtxtConversation.Width = rtxtConversation.Width + 20;
+                txtMessage.Width = txtMessage.Width + 20;
+                btnSend.Left += 20;
 
                 if (PanelSlide.Width <= 0)
                 {
@@ -173,9 +173,9 @@ namespace SkypeDemo
         private void Form1_Load(object sender, EventArgs e)
         {
             this.displayMessageDelegate = new DisplayMessageDelegate(this.DisplayMessage);
-
-
-
+            getIPAddresses();
+            // Get host name
+            txtName.Text = Dns.GetHostName().ToString();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -307,6 +307,32 @@ namespace SkypeDemo
             frm5.BringToFront();
 
             this.Hide();
+        }
+
+        public void getIPAddresses()
+        {
+            // Get host name
+            String strHostName = Dns.GetHostName();
+
+            // Find host by name
+            IPHostEntry iphostentry = Dns.GetHostByName(strHostName);
+
+            // Enumerate IP addresses
+            foreach (IPAddress ipaddress in iphostentry.AddressList)
+            {
+                rTxtIP.AppendText(ipaddress.ToString());
+                txtServerIP.Text = ipaddress.ToString();
+            }
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
