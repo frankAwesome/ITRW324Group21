@@ -97,7 +97,7 @@ namespace SkypeDemo
 
         private void btnShowHide_Click(object sender, EventArgs e)
         {
-            timer4.Start();
+            timer1.Start();
         }
 
         private void timer4_Tick(object sender, EventArgs e)
@@ -122,6 +122,39 @@ namespace SkypeDemo
                 if (PanelSlide.Width <= 0)
                 {
                     timer4.Stop();
+                    Hidden = true;
+                    this.Refresh();
+                }
+            }
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (Hidden)
+            {
+                PanelSlide.Width = PanelSlide.Width + 20;
+                axWindowsMediaPlayer1.Width = axWindowsMediaPlayer1.Width - 20;
+
+                if (PanelSlide.Width >= panelWidth)
+                {
+                    timer1.Stop();
+                    Hidden = false;
+                    this.Refresh();
+                }
+            }
+            else
+            {
+                PanelSlide.Width = PanelSlide.Width - 20;
+                axWindowsMediaPlayer1.Width = axWindowsMediaPlayer1.Width + 20;
+
+                if (PanelSlide.Width <= 0)
+                {
+                    timer1.Stop();
                     Hidden = true;
                     this.Refresh();
                 }

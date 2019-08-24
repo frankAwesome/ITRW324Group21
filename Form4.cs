@@ -13,10 +13,13 @@ namespace SkypeDemo
     public partial class Form4 : Form
     {
         bool bFormLoaded = false;
+        int panelWidth;
+        bool Hidden;
 
         public Form4()
         {
             InitializeComponent();
+            panelWidth = PanelSlide.Width;
             button7.Visible = false;
             label3.Visible = false;
         }
@@ -339,6 +342,45 @@ namespace SkypeDemo
                 cbowma.SelectedIndex = 0;
 
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnShowHide_Click(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            if (Hidden)
+            {
+                PanelSlide.Width = PanelSlide.Width + 20;
+                pnlMain.Width = pnlMain.Width - 20;
+
+                if (PanelSlide.Width >= panelWidth)
+                {
+                    timer1.Stop();
+                    Hidden = false;
+                    this.Refresh();
+                }
+            }
+            else
+            {
+                PanelSlide.Width = PanelSlide.Width - 20;
+                pnlMain.Width = pnlMain.Width + 20;
+
+                if (PanelSlide.Width <= 0)
+                {
+                    timer1.Stop();
+                    Hidden = true;
+                    this.Refresh();
+                }
+            }
         }
     }
 }
