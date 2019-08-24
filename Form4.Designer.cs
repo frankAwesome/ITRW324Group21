@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.lblHeading = new System.Windows.Forms.Label();
             this.btnLogo = new System.Windows.Forms.Button();
@@ -42,36 +43,8 @@
             this.btnSetttings = new System.Windows.Forms.Button();
             this.btnShowHide = new System.Windows.Forms.Button();
             this.pnlMain = new System.Windows.Forms.Panel();
-            this.PanelSlide = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.axAudioCapture1 = new AxAUDIOCAPTURELib.AxAudioCapture();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
-            this.cboaudiodevice = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.cboinputpin = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.chkusepitch = new System.Windows.Forms.CheckBox();
-            this.btnwaverightcolor = new System.Windows.Forms.Button();
-            this.btnwaveleftcolor = new System.Windows.Forms.Button();
-            this.btnwavebgcolor = new System.Windows.Forms.Button();
-            this.chkrightdown = new System.Windows.Forms.CheckBox();
-            this.chkleftdown = new System.Windows.Forms.CheckBox();
-            this.UpDownLeft = new System.Windows.Forms.NumericUpDown();
-            this.UpDownDivisor = new System.Windows.Forms.NumericUpDown();
-            this.txtcaption = new System.Windows.Forms.TextBox();
-            this.cboplaybackdevice = new System.Windows.Forms.ComboBox();
-            this.txtwidth = new System.Windows.Forms.TextBox();
-            this.txttop = new System.Windows.Forms.TextBox();
-            this.txtleft = new System.Windows.Forms.TextBox();
-            this.chkshowwaveform = new System.Windows.Forms.CheckBox();
-            this.chkcapturespeaker = new System.Windows.Forms.CheckBox();
-            this.chkshowpopup = new System.Windows.Forms.CheckBox();
-            this.txtheight = new System.Windows.Forms.TextBox();
+            this.UpDownRight = new System.Windows.Forms.NumericUpDown();
+            this.TrackBar1 = new System.Windows.Forms.TrackBar();
             this.txtfilename = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.Form1_Renamed = new System.Windows.Forms.GroupBox();
@@ -99,21 +72,50 @@
             this.TrackBar2 = new System.Windows.Forms.TrackBar();
             this.Label14 = new System.Windows.Forms.Label();
             this.Label13 = new System.Windows.Forms.Label();
-            this.TrackBar1 = new System.Windows.Forms.TrackBar();
-            this.UpDownRight = new System.Windows.Forms.NumericUpDown();
+            this.axAudioCapture1 = new AxAUDIOCAPTURELib.AxAudioCapture();
+            this.chkusepitch = new System.Windows.Forms.CheckBox();
+            this.btnwaverightcolor = new System.Windows.Forms.Button();
+            this.btnwaveleftcolor = new System.Windows.Forms.Button();
+            this.btnwavebgcolor = new System.Windows.Forms.Button();
+            this.chkrightdown = new System.Windows.Forms.CheckBox();
+            this.chkleftdown = new System.Windows.Forms.CheckBox();
+            this.UpDownLeft = new System.Windows.Forms.NumericUpDown();
+            this.UpDownDivisor = new System.Windows.Forms.NumericUpDown();
+            this.txtcaption = new System.Windows.Forms.TextBox();
+            this.cboplaybackdevice = new System.Windows.Forms.ComboBox();
+            this.txtwidth = new System.Windows.Forms.TextBox();
+            this.txttop = new System.Windows.Forms.TextBox();
+            this.txtleft = new System.Windows.Forms.TextBox();
+            this.chkshowwaveform = new System.Windows.Forms.CheckBox();
+            this.chkcapturespeaker = new System.Windows.Forms.CheckBox();
+            this.chkshowpopup = new System.Windows.Forms.CheckBox();
+            this.txtheight = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.cboinputpin = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cboaudiodevice = new System.Windows.Forms.ComboBox();
+            this.PanelSlide = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pnlBig.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pnlMain.SuspendLayout();
-            this.PanelSlide.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axAudioCapture1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpDownLeft)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpDownDivisor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UpDownRight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TrackBar1)).BeginInit();
             this.Form1_Renamed.SuspendLayout();
             this.Frame2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TrackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpDownRight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axAudioCapture1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UpDownLeft)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UpDownDivisor)).BeginInit();
+            this.PanelSlide.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblHeading
@@ -188,6 +190,7 @@
             this.button5.Size = new System.Drawing.Size(37, 36);
             this.button5.TabIndex = 5;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -257,6 +260,7 @@
             this.btnShowHide.Size = new System.Drawing.Size(37, 36);
             this.btnShowHide.TabIndex = 1;
             this.btnShowHide.UseVisualStyleBackColor = true;
+            this.btnShowHide.Click += new System.EventHandler(this.btnShowHide_Click);
             // 
             // pnlMain
             // 
@@ -295,319 +299,34 @@
             this.pnlMain.Size = new System.Drawing.Size(482, 475);
             this.pnlMain.TabIndex = 9;
             // 
-            // PanelSlide
+            // UpDownRight
             // 
-            this.PanelSlide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.PanelSlide.Controls.Add(this.button7);
-            this.PanelSlide.Controls.Add(this.label3);
-            this.PanelSlide.Controls.Add(this.label2);
-            this.PanelSlide.Controls.Add(this.button1);
-            this.PanelSlide.Controls.Add(this.label1);
-            this.PanelSlide.Controls.Add(this.pictureBox1);
-            this.PanelSlide.Dock = System.Windows.Forms.DockStyle.Left;
-            this.PanelSlide.Location = new System.Drawing.Point(43, 34);
-            this.PanelSlide.Name = "PanelSlide";
-            this.PanelSlide.Size = new System.Drawing.Size(239, 475);
-            this.PanelSlide.TabIndex = 8;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(9, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 38);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Voice Notes";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(16, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(43, 30);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // axAudioCapture1
-            // 
-            this.axAudioCapture1.Enabled = true;
-            this.axAudioCapture1.Location = new System.Drawing.Point(177, 6);
-            this.axAudioCapture1.Name = "axAudioCapture1";
-            this.axAudioCapture1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAudioCapture1.OcxState")));
-            this.axAudioCapture1.Size = new System.Drawing.Size(291, 140);
-            this.axAudioCapture1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(88, 103);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(76, 71);
-            this.button1.TabIndex = 7;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(28, 130);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 16);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Record";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(28, 224);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(36, 16);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Stop";
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(88, 197);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(76, 71);
-            this.button7.TabIndex = 10;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
-            // 
-            // cboaudiodevice
-            // 
-            this.cboaudiodevice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboaudiodevice.FormattingEnabled = true;
-            this.cboaudiodevice.Location = new System.Drawing.Point(16, 39);
-            this.cboaudiodevice.Name = "cboaudiodevice";
-            this.cboaudiodevice.Size = new System.Drawing.Size(147, 21);
-            this.cboaudiodevice.TabIndex = 2;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(13, 15);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 16);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Input Device:";
-            // 
-            // cboinputpin
-            // 
-            this.cboinputpin.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboinputpin.FormattingEnabled = true;
-            this.cboinputpin.Location = new System.Drawing.Point(16, 108);
-            this.cboinputpin.Name = "cboinputpin";
-            this.cboinputpin.Size = new System.Drawing.Size(147, 21);
-            this.cboinputpin.TabIndex = 12;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(13, 83);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 16);
-            this.label5.TabIndex = 13;
-            this.label5.Text = "Input Pin:";
-            // 
-            // chkusepitch
-            // 
-            this.chkusepitch.BackColor = System.Drawing.SystemColors.Control;
-            this.chkusepitch.Cursor = System.Windows.Forms.Cursors.Default;
-            this.chkusepitch.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkusepitch.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.chkusepitch.Location = new System.Drawing.Point(673, 591);
-            this.chkusepitch.Name = "chkusepitch";
-            this.chkusepitch.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.chkusepitch.Size = new System.Drawing.Size(73, 18);
-            this.chkusepitch.TabIndex = 44;
-            this.chkusepitch.Text = "Use Pitch";
-            this.chkusepitch.UseVisualStyleBackColor = false;
-            // 
-            // btnwaverightcolor
-            // 
-            this.btnwaverightcolor.Location = new System.Drawing.Point(942, 707);
-            this.btnwaverightcolor.Name = "btnwaverightcolor";
-            this.btnwaverightcolor.Size = new System.Drawing.Size(125, 29);
-            this.btnwaverightcolor.TabIndex = 43;
-            this.btnwaverightcolor.Text = "Right Channel Color";
-            this.btnwaverightcolor.UseVisualStyleBackColor = true;
-            // 
-            // btnwaveleftcolor
-            // 
-            this.btnwaveleftcolor.Location = new System.Drawing.Point(808, 707);
-            this.btnwaveleftcolor.Name = "btnwaveleftcolor";
-            this.btnwaveleftcolor.Size = new System.Drawing.Size(125, 29);
-            this.btnwaveleftcolor.TabIndex = 42;
-            this.btnwaveleftcolor.Text = "Left Channel Color";
-            this.btnwaveleftcolor.UseVisualStyleBackColor = true;
-            // 
-            // btnwavebgcolor
-            // 
-            this.btnwavebgcolor.Location = new System.Drawing.Point(673, 707);
-            this.btnwavebgcolor.Name = "btnwavebgcolor";
-            this.btnwavebgcolor.Size = new System.Drawing.Size(125, 29);
-            this.btnwavebgcolor.TabIndex = 41;
-            this.btnwavebgcolor.Text = "Wave Form Bg Color";
-            this.btnwavebgcolor.UseVisualStyleBackColor = true;
-            // 
-            // chkrightdown
-            // 
-            this.chkrightdown.AutoSize = true;
-            this.chkrightdown.Checked = true;
-            this.chkrightdown.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkrightdown.Location = new System.Drawing.Point(899, 665);
-            this.chkrightdown.Name = "chkrightdown";
-            this.chkrightdown.Size = new System.Drawing.Size(99, 17);
-            this.chkrightdown.TabIndex = 40;
-            this.chkrightdown.Text = "Down Direction";
-            this.chkrightdown.UseVisualStyleBackColor = true;
-            // 
-            // chkleftdown
-            // 
-            this.chkleftdown.AutoSize = true;
-            this.chkleftdown.Location = new System.Drawing.Point(899, 632);
-            this.chkleftdown.Name = "chkleftdown";
-            this.chkleftdown.Size = new System.Drawing.Size(99, 17);
-            this.chkleftdown.TabIndex = 39;
-            this.chkleftdown.Text = "Down Direction";
-            this.chkleftdown.UseVisualStyleBackColor = true;
-            // 
-            // UpDownLeft
-            // 
-            this.UpDownLeft.Increment = new decimal(new int[] {
+            this.UpDownRight.Increment = new decimal(new int[] {
             10,
             0,
             0,
             0});
-            this.UpDownLeft.Location = new System.Drawing.Point(673, 665);
-            this.UpDownLeft.Maximum = new decimal(new int[] {
+            this.UpDownRight.Location = new System.Drawing.Point(758, 665);
+            this.UpDownRight.Maximum = new decimal(new int[] {
             300,
             0,
             0,
             0});
-            this.UpDownLeft.Name = "UpDownLeft";
-            this.UpDownLeft.Size = new System.Drawing.Size(75, 20);
-            this.UpDownLeft.TabIndex = 38;
-            this.UpDownLeft.Value = new decimal(new int[] {
+            this.UpDownRight.Name = "UpDownRight";
+            this.UpDownRight.Size = new System.Drawing.Size(75, 20);
+            this.UpDownRight.TabIndex = 50;
+            this.UpDownRight.Value = new decimal(new int[] {
             50,
             0,
             0,
             0});
             // 
-            // UpDownDivisor
+            // TrackBar1
             // 
-            this.UpDownDivisor.Location = new System.Drawing.Point(673, 629);
-            this.UpDownDivisor.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.UpDownDivisor.Name = "UpDownDivisor";
-            this.UpDownDivisor.Size = new System.Drawing.Size(75, 20);
-            this.UpDownDivisor.TabIndex = 37;
-            this.UpDownDivisor.Value = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            // 
-            // txtcaption
-            // 
-            this.txtcaption.Location = new System.Drawing.Point(673, 565);
-            this.txtcaption.Name = "txtcaption";
-            this.txtcaption.Size = new System.Drawing.Size(103, 20);
-            this.txtcaption.TabIndex = 36;
-            // 
-            // cboplaybackdevice
-            // 
-            this.cboplaybackdevice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboplaybackdevice.Enabled = false;
-            this.cboplaybackdevice.FormattingEnabled = true;
-            this.cboplaybackdevice.Location = new System.Drawing.Point(808, 515);
-            this.cboplaybackdevice.Name = "cboplaybackdevice";
-            this.cboplaybackdevice.Size = new System.Drawing.Size(259, 21);
-            this.cboplaybackdevice.TabIndex = 30;
-            // 
-            // txtwidth
-            // 
-            this.txtwidth.Location = new System.Drawing.Point(782, 478);
-            this.txtwidth.Name = "txtwidth";
-            this.txtwidth.Size = new System.Drawing.Size(51, 20);
-            this.txtwidth.TabIndex = 33;
-            this.txtwidth.Text = "291";
-            // 
-            // txttop
-            // 
-            this.txttop.Location = new System.Drawing.Point(725, 478);
-            this.txttop.Name = "txttop";
-            this.txttop.Size = new System.Drawing.Size(51, 20);
-            this.txttop.TabIndex = 32;
-            this.txttop.Text = "6";
-            // 
-            // txtleft
-            // 
-            this.txtleft.Location = new System.Drawing.Point(670, 478);
-            this.txtleft.Name = "txtleft";
-            this.txtleft.Size = new System.Drawing.Size(51, 20);
-            this.txtleft.TabIndex = 31;
-            this.txtleft.Text = "177";
-            // 
-            // chkshowwaveform
-            // 
-            this.chkshowwaveform.AutoSize = true;
-            this.chkshowwaveform.Checked = true;
-            this.chkshowwaveform.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkshowwaveform.Location = new System.Drawing.Point(683, 429);
-            this.chkshowwaveform.Name = "chkshowwaveform";
-            this.chkshowwaveform.Size = new System.Drawing.Size(111, 17);
-            this.chkshowwaveform.TabIndex = 28;
-            this.chkshowwaveform.Text = "Show Wave Form";
-            this.chkshowwaveform.UseVisualStyleBackColor = true;
-            // 
-            // chkcapturespeaker
-            // 
-            this.chkcapturespeaker.AutoSize = true;
-            this.chkcapturespeaker.Location = new System.Drawing.Point(683, 452);
-            this.chkcapturespeaker.Name = "chkcapturespeaker";
-            this.chkcapturespeaker.Size = new System.Drawing.Size(404, 17);
-            this.chkcapturespeaker.TabIndex = 29;
-            this.chkcapturespeaker.Text = "Capture from Playback Device (Windows 10, Windows 8, Vista Windows 7 only)";
-            this.chkcapturespeaker.UseVisualStyleBackColor = true;
-            // 
-            // chkshowpopup
-            // 
-            this.chkshowpopup.AutoSize = true;
-            this.chkshowpopup.Location = new System.Drawing.Point(670, 542);
-            this.chkshowpopup.Name = "chkshowpopup";
-            this.chkshowpopup.Size = new System.Drawing.Size(87, 17);
-            this.chkshowpopup.TabIndex = 35;
-            this.chkshowpopup.Text = "Show Popup";
-            this.chkshowpopup.UseVisualStyleBackColor = true;
-            // 
-            // txtheight
-            // 
-            this.txtheight.Location = new System.Drawing.Point(839, 478);
-            this.txtheight.Name = "txtheight";
-            this.txtheight.Size = new System.Drawing.Size(51, 20);
-            this.txtheight.TabIndex = 34;
-            this.txtheight.Text = "140";
+            this.TrackBar1.Location = new System.Drawing.Point(673, 742);
+            this.TrackBar1.Name = "TrackBar1";
+            this.TrackBar1.Size = new System.Drawing.Size(232, 45);
+            this.TrackBar1.TabIndex = 49;
             // 
             // txtfilename
             // 
@@ -982,34 +701,323 @@
             this.Label13.TabIndex = 39;
             this.Label13.Text = "Max";
             // 
-            // TrackBar1
+            // axAudioCapture1
             // 
-            this.TrackBar1.Location = new System.Drawing.Point(673, 742);
-            this.TrackBar1.Name = "TrackBar1";
-            this.TrackBar1.Size = new System.Drawing.Size(232, 45);
-            this.TrackBar1.TabIndex = 49;
+            this.axAudioCapture1.Enabled = true;
+            this.axAudioCapture1.Location = new System.Drawing.Point(177, 6);
+            this.axAudioCapture1.Name = "axAudioCapture1";
+            this.axAudioCapture1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axAudioCapture1.OcxState")));
+            this.axAudioCapture1.Size = new System.Drawing.Size(291, 140);
+            this.axAudioCapture1.TabIndex = 0;
             // 
-            // UpDownRight
+            // chkusepitch
             // 
-            this.UpDownRight.Increment = new decimal(new int[] {
+            this.chkusepitch.BackColor = System.Drawing.SystemColors.Control;
+            this.chkusepitch.Cursor = System.Windows.Forms.Cursors.Default;
+            this.chkusepitch.Font = new System.Drawing.Font("Arial", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkusepitch.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.chkusepitch.Location = new System.Drawing.Point(673, 591);
+            this.chkusepitch.Name = "chkusepitch";
+            this.chkusepitch.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.chkusepitch.Size = new System.Drawing.Size(73, 18);
+            this.chkusepitch.TabIndex = 44;
+            this.chkusepitch.Text = "Use Pitch";
+            this.chkusepitch.UseVisualStyleBackColor = false;
+            // 
+            // btnwaverightcolor
+            // 
+            this.btnwaverightcolor.Location = new System.Drawing.Point(942, 707);
+            this.btnwaverightcolor.Name = "btnwaverightcolor";
+            this.btnwaverightcolor.Size = new System.Drawing.Size(125, 29);
+            this.btnwaverightcolor.TabIndex = 43;
+            this.btnwaverightcolor.Text = "Right Channel Color";
+            this.btnwaverightcolor.UseVisualStyleBackColor = true;
+            // 
+            // btnwaveleftcolor
+            // 
+            this.btnwaveleftcolor.Location = new System.Drawing.Point(808, 707);
+            this.btnwaveleftcolor.Name = "btnwaveleftcolor";
+            this.btnwaveleftcolor.Size = new System.Drawing.Size(125, 29);
+            this.btnwaveleftcolor.TabIndex = 42;
+            this.btnwaveleftcolor.Text = "Left Channel Color";
+            this.btnwaveleftcolor.UseVisualStyleBackColor = true;
+            // 
+            // btnwavebgcolor
+            // 
+            this.btnwavebgcolor.Location = new System.Drawing.Point(673, 707);
+            this.btnwavebgcolor.Name = "btnwavebgcolor";
+            this.btnwavebgcolor.Size = new System.Drawing.Size(125, 29);
+            this.btnwavebgcolor.TabIndex = 41;
+            this.btnwavebgcolor.Text = "Wave Form Bg Color";
+            this.btnwavebgcolor.UseVisualStyleBackColor = true;
+            // 
+            // chkrightdown
+            // 
+            this.chkrightdown.AutoSize = true;
+            this.chkrightdown.Checked = true;
+            this.chkrightdown.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkrightdown.Location = new System.Drawing.Point(899, 665);
+            this.chkrightdown.Name = "chkrightdown";
+            this.chkrightdown.Size = new System.Drawing.Size(99, 17);
+            this.chkrightdown.TabIndex = 40;
+            this.chkrightdown.Text = "Down Direction";
+            this.chkrightdown.UseVisualStyleBackColor = true;
+            // 
+            // chkleftdown
+            // 
+            this.chkleftdown.AutoSize = true;
+            this.chkleftdown.Location = new System.Drawing.Point(899, 632);
+            this.chkleftdown.Name = "chkleftdown";
+            this.chkleftdown.Size = new System.Drawing.Size(99, 17);
+            this.chkleftdown.TabIndex = 39;
+            this.chkleftdown.Text = "Down Direction";
+            this.chkleftdown.UseVisualStyleBackColor = true;
+            // 
+            // UpDownLeft
+            // 
+            this.UpDownLeft.Increment = new decimal(new int[] {
             10,
             0,
             0,
             0});
-            this.UpDownRight.Location = new System.Drawing.Point(758, 665);
-            this.UpDownRight.Maximum = new decimal(new int[] {
+            this.UpDownLeft.Location = new System.Drawing.Point(673, 665);
+            this.UpDownLeft.Maximum = new decimal(new int[] {
             300,
             0,
             0,
             0});
-            this.UpDownRight.Name = "UpDownRight";
-            this.UpDownRight.Size = new System.Drawing.Size(75, 20);
-            this.UpDownRight.TabIndex = 50;
-            this.UpDownRight.Value = new decimal(new int[] {
+            this.UpDownLeft.Name = "UpDownLeft";
+            this.UpDownLeft.Size = new System.Drawing.Size(75, 20);
+            this.UpDownLeft.TabIndex = 38;
+            this.UpDownLeft.Value = new decimal(new int[] {
             50,
             0,
             0,
             0});
+            // 
+            // UpDownDivisor
+            // 
+            this.UpDownDivisor.Location = new System.Drawing.Point(673, 629);
+            this.UpDownDivisor.Maximum = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.UpDownDivisor.Name = "UpDownDivisor";
+            this.UpDownDivisor.Size = new System.Drawing.Size(75, 20);
+            this.UpDownDivisor.TabIndex = 37;
+            this.UpDownDivisor.Value = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            // 
+            // txtcaption
+            // 
+            this.txtcaption.Location = new System.Drawing.Point(673, 565);
+            this.txtcaption.Name = "txtcaption";
+            this.txtcaption.Size = new System.Drawing.Size(103, 20);
+            this.txtcaption.TabIndex = 36;
+            // 
+            // cboplaybackdevice
+            // 
+            this.cboplaybackdevice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboplaybackdevice.Enabled = false;
+            this.cboplaybackdevice.FormattingEnabled = true;
+            this.cboplaybackdevice.Location = new System.Drawing.Point(808, 515);
+            this.cboplaybackdevice.Name = "cboplaybackdevice";
+            this.cboplaybackdevice.Size = new System.Drawing.Size(259, 21);
+            this.cboplaybackdevice.TabIndex = 30;
+            // 
+            // txtwidth
+            // 
+            this.txtwidth.Location = new System.Drawing.Point(782, 478);
+            this.txtwidth.Name = "txtwidth";
+            this.txtwidth.Size = new System.Drawing.Size(51, 20);
+            this.txtwidth.TabIndex = 33;
+            this.txtwidth.Text = "291";
+            // 
+            // txttop
+            // 
+            this.txttop.Location = new System.Drawing.Point(725, 478);
+            this.txttop.Name = "txttop";
+            this.txttop.Size = new System.Drawing.Size(51, 20);
+            this.txttop.TabIndex = 32;
+            this.txttop.Text = "6";
+            // 
+            // txtleft
+            // 
+            this.txtleft.Location = new System.Drawing.Point(670, 478);
+            this.txtleft.Name = "txtleft";
+            this.txtleft.Size = new System.Drawing.Size(51, 20);
+            this.txtleft.TabIndex = 31;
+            this.txtleft.Text = "177";
+            // 
+            // chkshowwaveform
+            // 
+            this.chkshowwaveform.AutoSize = true;
+            this.chkshowwaveform.Checked = true;
+            this.chkshowwaveform.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkshowwaveform.Location = new System.Drawing.Point(683, 429);
+            this.chkshowwaveform.Name = "chkshowwaveform";
+            this.chkshowwaveform.Size = new System.Drawing.Size(111, 17);
+            this.chkshowwaveform.TabIndex = 28;
+            this.chkshowwaveform.Text = "Show Wave Form";
+            this.chkshowwaveform.UseVisualStyleBackColor = true;
+            // 
+            // chkcapturespeaker
+            // 
+            this.chkcapturespeaker.AutoSize = true;
+            this.chkcapturespeaker.Location = new System.Drawing.Point(683, 452);
+            this.chkcapturespeaker.Name = "chkcapturespeaker";
+            this.chkcapturespeaker.Size = new System.Drawing.Size(404, 17);
+            this.chkcapturespeaker.TabIndex = 29;
+            this.chkcapturespeaker.Text = "Capture from Playback Device (Windows 10, Windows 8, Vista Windows 7 only)";
+            this.chkcapturespeaker.UseVisualStyleBackColor = true;
+            // 
+            // chkshowpopup
+            // 
+            this.chkshowpopup.AutoSize = true;
+            this.chkshowpopup.Location = new System.Drawing.Point(670, 542);
+            this.chkshowpopup.Name = "chkshowpopup";
+            this.chkshowpopup.Size = new System.Drawing.Size(87, 17);
+            this.chkshowpopup.TabIndex = 35;
+            this.chkshowpopup.Text = "Show Popup";
+            this.chkshowpopup.UseVisualStyleBackColor = true;
+            // 
+            // txtheight
+            // 
+            this.txtheight.Location = new System.Drawing.Point(839, 478);
+            this.txtheight.Name = "txtheight";
+            this.txtheight.Size = new System.Drawing.Size(51, 20);
+            this.txtheight.TabIndex = 34;
+            this.txtheight.Text = "140";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(13, 83);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(68, 16);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Input Pin:";
+            // 
+            // cboinputpin
+            // 
+            this.cboinputpin.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboinputpin.FormattingEnabled = true;
+            this.cboinputpin.Location = new System.Drawing.Point(16, 108);
+            this.cboinputpin.Name = "cboinputpin";
+            this.cboinputpin.Size = new System.Drawing.Size(147, 21);
+            this.cboinputpin.TabIndex = 12;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(13, 15);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(93, 16);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Input Device:";
+            // 
+            // cboaudiodevice
+            // 
+            this.cboaudiodevice.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboaudiodevice.FormattingEnabled = true;
+            this.cboaudiodevice.Location = new System.Drawing.Point(16, 39);
+            this.cboaudiodevice.Name = "cboaudiodevice";
+            this.cboaudiodevice.Size = new System.Drawing.Size(147, 21);
+            this.cboaudiodevice.TabIndex = 2;
+            // 
+            // PanelSlide
+            // 
+            this.PanelSlide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.PanelSlide.Controls.Add(this.button7);
+            this.PanelSlide.Controls.Add(this.label3);
+            this.PanelSlide.Controls.Add(this.label2);
+            this.PanelSlide.Controls.Add(this.button1);
+            this.PanelSlide.Controls.Add(this.label1);
+            this.PanelSlide.Controls.Add(this.pictureBox1);
+            this.PanelSlide.Dock = System.Windows.Forms.DockStyle.Left;
+            this.PanelSlide.Location = new System.Drawing.Point(43, 34);
+            this.PanelSlide.Name = "PanelSlide";
+            this.PanelSlide.Size = new System.Drawing.Size(239, 475);
+            this.PanelSlide.TabIndex = 8;
+            // 
+            // button7
+            // 
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.Location = new System.Drawing.Point(88, 197);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(76, 71);
+            this.button7.TabIndex = 10;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(28, 224);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(36, 16);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Stop";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(28, 130);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(54, 16);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Record";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(88, 103);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(76, 71);
+            this.button1.TabIndex = 7;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(9, 51);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(204, 38);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Voice Notes";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(16, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(43, 30);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form4
             // 
@@ -1029,18 +1037,18 @@
             this.panel2.ResumeLayout(false);
             this.pnlMain.ResumeLayout(false);
             this.pnlMain.PerformLayout();
-            this.PanelSlide.ResumeLayout(false);
-            this.PanelSlide.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axAudioCapture1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpDownLeft)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpDownDivisor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UpDownRight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TrackBar1)).EndInit();
             this.Form1_Renamed.ResumeLayout(false);
             this.Frame2.ResumeLayout(false);
             this.Frame2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TrackBar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.TrackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.UpDownRight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.axAudioCapture1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UpDownLeft)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.UpDownDivisor)).EndInit();
+            this.PanelSlide.ResumeLayout(false);
+            this.PanelSlide.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1119,5 +1127,6 @@
         public System.Windows.Forms.Label Label13;
         internal System.Windows.Forms.TrackBar TrackBar1;
         private System.Windows.Forms.NumericUpDown UpDownRight;
+        private System.Windows.Forms.Timer timer1;
     }
 }
