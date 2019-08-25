@@ -25,4 +25,4 @@ The text chat depends on one, single user/server that hosts a seperate program.
 
   To shut down the server the host must simply close the program
   
-  *All traffic/messages are saved and backed up locally*
+   *All traffic/messages are saved and backed up locally*
