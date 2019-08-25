@@ -36,6 +36,9 @@ namespace SkypeDemo
         private delegate void DisplayMessageDelegate(string message);
         private DisplayMessageDelegate displayMessageDelegate = null;
 
+        // Get host name
+        String strHostName = Dns.GetHostName();
+
         bool bFormLoaded = false;
 
 
@@ -45,7 +48,8 @@ namespace SkypeDemo
             InitializeComponent();
             panelWidth = PanelSlide.Width;
             Hidden = false;
-
+            // Find host by name
+            IPHostEntry iphostentry = Dns.GetHostByName(strHostName);
         }
 
 
@@ -166,7 +170,7 @@ namespace SkypeDemo
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Send Error: " + ex.Message, "UDP Client", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(strHostName + " is not a valid host!");
             }
         }
 
@@ -311,12 +315,8 @@ namespace SkypeDemo
 
         public void getIPAddresses()
         {
-            // Get host name
-            String strHostName = Dns.GetHostName();
-
-            // Find host by name
+            //Find Host by Name
             IPHostEntry iphostentry = Dns.GetHostByName(strHostName);
-
             // Enumerate IP addresses
             foreach (IPAddress ipaddress in iphostentry.AddressList)
             {

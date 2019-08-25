@@ -60,6 +60,14 @@ namespace SkypeDemo
             btnClearComplete.Click += new EventHandler(btnClearComplete_Click);
 
             btnStopServer.Enabled = false;
+            // Get host name
+            String strHostName = Dns.GetHostName();
+            IPHostEntry iphostentry = Dns.GetHostByName(strHostName);
+            foreach (IPAddress ipaddress in iphostentry.AddressList)
+            {
+                txtCntHost.Text = ipaddress.ToString();
+            }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -461,5 +469,10 @@ namespace SkypeDemo
         }
         progressOverall.Value = 0;
     } //Stop Sending
+
+        private void txtCntHost_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -43,6 +43,7 @@
             this.btnSetttings = new System.Windows.Forms.Button();
             this.btnShowHide = new System.Windows.Forms.Button();
             this.PanelSlide = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -86,7 +87,6 @@
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.progressOverall = new System.Windows.Forms.ToolStripProgressBar();
-            this.label9 = new System.Windows.Forms.Label();
             this.pnlBig.SuspendLayout();
             this.panel2.SuspendLayout();
             this.PanelSlide.SuspendLayout();
@@ -259,6 +259,16 @@
             this.PanelSlide.Name = "PanelSlide";
             this.PanelSlide.Size = new System.Drawing.Size(239, 475);
             this.PanelSlide.TabIndex = 6;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(3, 255);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(229, 16);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "Right click in LISTBOX to send files";
             // 
             // label8
             // 
@@ -434,6 +444,7 @@
             this.txtCntHost.Name = "txtCntHost";
             this.txtCntHost.Size = new System.Drawing.Size(100, 25);
             this.txtCntHost.Text = "192.168.8.101";
+            this.txtCntHost.Click += new System.EventHandler(this.txtCntHost_Click);
             // 
             // txtCntPort
             // 
@@ -601,16 +612,6 @@
             this.progressOverall.Name = "progressOverall";
             this.progressOverall.Size = new System.Drawing.Size(100, 16);
             this.progressOverall.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(3, 255);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(229, 16);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Right click in LISTBOX to send files";
             // 
             // Form2
             // 

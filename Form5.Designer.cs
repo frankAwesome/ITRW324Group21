@@ -62,14 +62,14 @@
             this.axVideoChatSender = new AxVideoChatSenderLib.AxVideoChatSender();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.PanelSlide = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.btnConnect = new System.Windows.Forms.Button();
             this.txtPortno = new System.Windows.Forms.TextBox();
             this.txtStreamToIP = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlBig.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pnlMain.SuspendLayout();
@@ -426,6 +426,26 @@
             this.PanelSlide.Name = "PanelSlide";
             this.PanelSlide.Size = new System.Drawing.Size(239, 475);
             this.PanelSlide.TabIndex = 2;
+            this.PanelSlide.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelSlide_Paint);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(27, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 25);
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(21, 39);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(175, 36);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "Video Chat";
             // 
             // label4
             // 
@@ -484,25 +504,6 @@
             this.txtStreamToIP.Size = new System.Drawing.Size(119, 27);
             this.txtStreamToIP.TabIndex = 4;
             this.txtStreamToIP.Text = "192.168.8.101";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(21, 39);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(175, 36);
-            this.label5.TabIndex = 18;
-            this.label5.Text = "Video Chat";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(27, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 25);
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
             // 
             // frmVideoChat
             // 

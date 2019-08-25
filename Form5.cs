@@ -29,7 +29,13 @@ namespace SkypeDemo
             InitializeComponent();
             panelWidth = PanelSlide.Width;
             Hidden = false;
-
+            // Get host name
+            String strHostName = Dns.GetHostName();
+            IPHostEntry iphostentry = Dns.GetHostByName(strHostName);
+            foreach (IPAddress ipaddress in iphostentry.AddressList)
+            {
+                txtStreamToIP.Text = ipaddress.ToString();
+            }
 
         }
 
@@ -244,6 +250,11 @@ namespace SkypeDemo
             frm5.BringToFront();
 
             this.Hide();
+        }
+
+        private void PanelSlide_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

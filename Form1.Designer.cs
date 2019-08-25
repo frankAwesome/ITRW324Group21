@@ -47,6 +47,8 @@
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.rtxtConversation = new System.Windows.Forms.RichTextBox();
             this.PanelSlide = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.rTxtIP = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -55,8 +57,6 @@
             this.txtServerIP = new System.Windows.Forms.TextBox();
             this.btnConnect = new System.Windows.Forms.Button();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.rTxtIP = new System.Windows.Forms.RichTextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.pnlBig.SuspendLayout();
             this.panel2.SuspendLayout();
             this.pnlMain.SuspendLayout();
@@ -242,6 +242,7 @@
             // 
             // rtxtConversation
             // 
+            this.rtxtConversation.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtxtConversation.Location = new System.Drawing.Point(6, 6);
             this.rtxtConversation.Name = "rtxtConversation";
             this.rtxtConversation.Size = new System.Drawing.Size(464, 383);
@@ -265,6 +266,26 @@
             this.PanelSlide.Name = "PanelSlide";
             this.PanelSlide.Size = new System.Drawing.Size(239, 475);
             this.PanelSlide.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(39, 268);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(125, 21);
+            this.label4.TabIndex = 21;
+            this.label4.Text = "Local Network:";
+            // 
+            // rTxtIP
+            // 
+            this.rTxtIP.Location = new System.Drawing.Point(36, 292);
+            this.rTxtIP.Name = "rTxtIP";
+            this.rTxtIP.Size = new System.Drawing.Size(182, 171);
+            this.rTxtIP.TabIndex = 8;
+            this.rTxtIP.Text = "";
+            this.rTxtIP.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // label2
             // 
@@ -342,26 +363,6 @@
             // 
             this.timer2.Interval = 20;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // rTxtIP
-            // 
-            this.rTxtIP.Location = new System.Drawing.Point(36, 292);
-            this.rTxtIP.Name = "rTxtIP";
-            this.rTxtIP.Size = new System.Drawing.Size(182, 171);
-            this.rTxtIP.TabIndex = 8;
-            this.rTxtIP.Text = "";
-            this.rTxtIP.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(39, 268);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(125, 21);
-            this.label4.TabIndex = 21;
-            this.label4.Text = "Local Network:";
             // 
             // Client
             // 
