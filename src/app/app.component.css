@@ -1,0 +1,25 @@
+.container {
+  width: auto;
+  height: auto;
+  background-color: #ffb74a;
+  border-radius: 10px;
+  opacity: 0.9;
+  padding: 20px;
+}
+
+.container1 {
+  width: auto;
+  height: 200px;
+  background-color: #188f92;
+  opacity: 100%;
+  border-radius: 10px;
+}
+
+.bg {
+  width: auto;
+  height: 100%;
+  background-color: mediumaquamarine;
+ /* background: url("https://static1.squarespace.com/static/59ac7cfef14aa1e8b7cff33d/59bbd1ba8fd4d209eb355f75/5b6ce95721c67c8a95fafda6/1544542536730/AdobeStock_oranges_201216111.jpeg?format=2500w");*/
+  background-size: 100% 100%;
+  background-position: top center;
+}
