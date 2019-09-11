@@ -1,0 +1,171 @@
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.dll
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.dll
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.dll
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.xml
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.xml
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.xml
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csprojAssemblyReference.cache
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\source\repos\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csprojAssemblyReference.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csprojAssemblyReference.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\CircularProgressBar.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\2 WindowsFormsApp9 - Loader\WindowsFormsApp9\bin\Debug\WinFormAnimation.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\CircularProgressBar.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WinFormAnimation.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csprojAssemblyReference.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\LoadingIndicator.WinForms.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\3 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Louder.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\CircularProgressBar.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\LoadingIndicator.WinForms.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\WinFormAnimation.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csprojAssemblyReference.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Louder.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\4 WindowsFormsApp9 - Loader refine\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\CircularProgressBar.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\LoadingIndicator.WinForms.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\WinFormAnimation.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csprojAssemblyReference.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Louder.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\5 WindowsFormsApp9\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe.config
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\WindowsFormsApp9.pdb
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\CircularProgressBar.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\LoadingIndicator.WinForms.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\WinFormAnimation.dll
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\DotImaging.BitmapSourceInterop.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\DotImaging.GenericImage.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\DotImaging.Primitives2D.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csprojAssemblyReference.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Form1.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Louder.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.Properties.Resources.resources
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.GenerateResource.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CoreCompileInputs.cache
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.csproj.CopyComplete
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.exe
+C:\Users\Francois\Desktop\NWU\2019\ITRW 324\Project Research\API Coding\Client\6 WindowsFormsApp9 - Loading fix\WindowsFormsApp9\obj\Debug\WindowsFormsApp9.pdb
