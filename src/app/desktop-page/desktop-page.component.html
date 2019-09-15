@@ -1,5 +1,50 @@
+<div class="container2">
+<div class="parallax">
 <div class="container">
-  <div class="container1">
-    <h1>DESKTOP-PAGE</h1>
+    <div class="container1">
+    <h1 class="text-center font-italic">Desktop-Application</h1>
+    <hr>
+      <div class="row">
+        <div class="col-xs-4 col-sm-4">
+          <div id="file-transfer" (click)="clickFileTransfer()" href="#" routerLink="/file-transfer" routerLinkActive="active">
+            <h2 class="font-italic">File Transfer </h2>
+            <hr>
+            <img class="center" src="https://img.icons8.com/ios-filled/2x/back-sorting.png"><hr>
+            <p>- Transfer files to locally connected users</p>
+            <p>- Any size/type</p>
+            <p>- Zero ISP bandwidth used</p>
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <div id="video-call" href="#" routerLink="/video-call" routerLinkActive="active">
+            <h2 class="font-italic">Video Call</h2>
+            <hr>
+            <img class="center" src="https://img.icons8.com/ios-filled/2x/video-message.png">
+            <hr>
+            <p>- Video call any locally connected user</p>
+            <p>- Minimal ping</p>
+            <p>- Zero ISP bandwidth used</p>
+            <p>- Webcam & Microphone required</p>
+          </div>
+        </div>
+        <div class="col-xs-4 col-sm-4">
+          <div id="voice-messaging" href="#" routerLink="/voice-note" routerLinkActive="active">
+            <h2 class="font-italic">Voice Messaging</h2>
+            <hr>
+            <img class="center" src="https://img.icons8.com/ios-filled/2x/microphone.png">
+            <hr>
+            <p>- Record and send voice messages</p>
+            <p>- Zero ISP bandwidth usage</p>
+            <p>- Microphone required</p>
+          </div>
+        </div>
+     </div>
+      <hr>
   </div>
 </div>
+<br>
+<br>
+  <app-bottom-frame></app-bottom-frame>
+</div>
+</div>
+

@@ -1,0 +1,17 @@
+.container {
+  background-color: #359cad;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: block;
+}
+
+button {
+  margin-right: 20px;
+}
+
+h5 {
+  color: whitesmoke;
+}

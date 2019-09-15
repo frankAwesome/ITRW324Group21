@@ -9,6 +9,10 @@ export class DesktopPageComponent implements OnInit {
 
   constructor() { }
 
+  clickFileTransfer() {
+
+  }
+
   ngOnInit() {
   }
 

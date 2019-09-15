@@ -5,12 +5,95 @@
   border-radius: 10px;
   opacity: 0.9;
   padding: 20px;
+  margin: auto;
 }
 
 .container1 {
   width: auto;
-  height: 200px;
   background-color: #188f92;
   opacity: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+}
+
+.container2 {
+  width: auto;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+hr {
+  color: whitesmoke;
+  display: block;
+}
+
+#file-transfer:hover {
+  background-color: #3cb8c9;
+  cursor: pointer;
+}
+#video-call:hover {
+  background-color: #3cb8c9;
+  cursor: pointer;
+}
+#voice-messaging:hover {
+  background-color: #3cb8c9;
+  cursor: pointer;
+}
+#video-call {
+  float: left;
+  background-color: #42a7aa;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+#file-transfer {
+  float: left;
+  background-color: #42a7aa;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#voice-messaging {
+  float: left;
+  background-color: #42a7aa;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.parallax {
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GfRLKaE/videoblocks-connection-motion-blue-network-abstract-background_hbl3mhsonz_thumbnail-full01.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: auto;
   border-radius: 10px;
 }

@@ -23,3 +23,12 @@
   background-size: 100% 100%;
   background-position: top center;
 }
+
+.parallax {
+  background-image: url("https://previews.123rf.com/images/liuzishan/liuzishan1701/liuzishan170100046/68987761-internet-connection-abstract-sense-of-science-and-technology-graphic-design-.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }

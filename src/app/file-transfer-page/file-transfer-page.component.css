@@ -1,0 +1,16 @@
+.container {
+   width: auto;
+   height: auto;
+   background-color: #ffb74a;
+   border-radius: 10px;
+   opacity: 0.9;
+   padding: 20px;
+ }
+
+.container1 {
+  width: auto;
+  height: 200px;
+  background-color: #188f92;
+  opacity: 100%;
+  border-radius: 10px;
+}
