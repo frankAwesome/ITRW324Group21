@@ -7,10 +7,46 @@
   padding: 20px;
 }
 
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+p {
+  color: whitesmoke;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h3 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+img {
+  margin: 20px;
+  border-radius: 10px;
+}
+
 .container1 {
   width: auto;
-  height: 200px;
+  height: auto;
   background-color: #188f92;
   opacity: 100%;
   border-radius: 10px;
+}
+
+.parallax {
+  background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GfRLKaE/videoblocks-connection-motion-blue-network-abstract-background_hbl3mhsonz_thumbnail-full01.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  width: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
