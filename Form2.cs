@@ -34,7 +34,6 @@ namespace SkypeDemo
         public Form2()
         {
             InitializeComponent();
-            panelWidth = PanelSlide.Width;
             Hidden = false;
 
             listener = new Listener();
@@ -60,55 +59,16 @@ namespace SkypeDemo
             btnClearComplete.Click += new EventHandler(btnClearComplete_Click);
 
             btnStopServer.Enabled = false;
-            // Get host name
-            String strHostName = Dns.GetHostName();
-            IPHostEntry iphostentry = Dns.GetHostByName(strHostName);
-            foreach (IPAddress ipaddress in iphostentry.AddressList)
-            {
-                txtCntHost.Text = ipaddress.ToString();
-            }
-            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Client frm5 = new Client();
-            if (bFormLoaded == false)
-            {
-                frm5.Show();
-                bFormLoaded = true;
-            }
-                frm5.BringToFront();
 
-            this.Hide();
         }
 
         private void timer3_Tick(object sender, EventArgs e)
         {
-            if (Hidden)
-            {
-                PanelSlide.Width = PanelSlide.Width + 10;
 
-
-                if (PanelSlide.Width >= panelWidth)
-                {
-                    timer3.Stop();
-                    Hidden = false;
-                    this.Refresh();
-                }
-            }
-            else
-            {
-                PanelSlide.Width = PanelSlide.Width - 10;
-
-
-                if (PanelSlide.Width <= 0)
-                {
-                    timer3.Stop();
-                    Hidden = true;
-                    this.Refresh();
-                }
-            }
         }
 
 
@@ -132,16 +92,7 @@ namespace SkypeDemo
 
         private void button6_Click(object sender, EventArgs e)
         {
-            frmVideoChat frm5 = new frmVideoChat();
-            if (bFormLoaded == false)
-            {
-                frm5.Show();
-                bFormLoaded = true;
-            }
 
-                frm5.BringToFront();
-
-            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -151,32 +102,12 @@ namespace SkypeDemo
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form3 frm5 = new Form3();
-            if (bFormLoaded == false)
-            {
-                frm5.Show();
-                bFormLoaded = true;
-            }
 
-
-            frm5.BringToFront();
-
-            this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form4 frm5 = new Form4();
-            if (bFormLoaded == false)
-            {
-                frm5.Show();
-                bFormLoaded = true;
-            }
 
-
-            frm5.BringToFront();
-
-            this.Hide();
         }
 
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
@@ -470,9 +401,9 @@ namespace SkypeDemo
         progressOverall.Value = 0;
     } //Stop Sending
 
-        private void txtCntHost_Click(object sender, EventArgs e)
+        private void bunifuiOSSwitch1_OnValueChange(object sender, EventArgs e)
         {
-
+            this.Hide();
         }
     }
 }

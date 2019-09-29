@@ -4,24 +4,21 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SkypeDemo
+namespace WindowsFormsApp9
 {
     static class Program
     {
-        public static Random Rand;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
-            Rand = new Random();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Client());
+            Application.Run(new Form1());
+
+
         }
     }
 }
-
-
-

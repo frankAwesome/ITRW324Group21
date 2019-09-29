@@ -7,332 +7,423 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net.Sockets;
+using WpfApp5;
+using System.Windows.Media.Imaging;
 using System.Net;
+using System.IO;
+using System.Threading;
+using LoadingIndicator.WinForms;
+using SkypeDemo;
 
-using ChatApplication;
-
-namespace SkypeDemo
+namespace WindowsFormsApp9
 {
-
-    public partial class Client : Form
+    public partial class Form1 : Form
     {
-        int panelWidth;
-        bool Hidden;
+        public int maxNumber, currentNumber = 1;
 
-        // Client socket
-        private Socket clientSocket;
+        public string currentHeader = "";
 
-        // Client name
-        private string name;
 
-        // Server End Point
-        private EndPoint epServer;
-
-        // Data stream
-        private byte[] dataStream = new byte[1024];
-
-        // Display message delegate
-        private delegate void DisplayMessageDelegate(string message);
-        private DisplayMessageDelegate displayMessageDelegate = null;
-
-        // Get host name
-        String strHostName = Dns.GetHostName();
-
-        bool bFormLoaded = false;
+        System.Windows.Forms.Timer t1 = new System.Windows.Forms.Timer();
 
 
 
-        public Client()
+        public Form1()
         {
             InitializeComponent();
-            panelWidth = PanelSlide.Width;
-            Hidden = false;
-            // Find host by name
-            IPHostEntry iphostentry = Dns.GetHostByName(strHostName);
+
+            this.Visible = false;
+
+            WpfApp5.ApiHelper.InitializeClient();
+            button2.Visible = false;
+
+            //pictureBox5.Visible = false;
+
+            Thread ATM2 = new Thread(new ThreadStart(ThreadProcOne));
+
+            ATM2.Start();
+
+            t.Start();
         }
 
 
+        static int iL, iT = 0;
 
-        private void button6_Click(object sender, EventArgs e)
+        Thread t = new Thread(new ThreadStart(ThreadProc));
+
+        public static void ThreadProc()
         {
 
-            frmVideoChat frm5 = new frmVideoChat();
-            if (bFormLoaded == false)
+            string path = @Directory.GetCurrentDirectory() + @"\Settings\Location.txt";
+
+
+            while (true)
             {
-                frm5.Show();
-                bFormLoaded = true;
-            }
-
-
-                frm5.BringToFront();
-
-            this.Hide();
-
-        }
-
-        private void btnShowHide_Click(object sender, EventArgs e)
-        {
-            timer2.Start();
-        }
-
-        private void timer2_Tick(object sender, EventArgs e)
-        {
-            if (Hidden)
-            {
-                PanelSlide.Width = PanelSlide.Width + 20;
-                rtxtConversation.Width = rtxtConversation.Width - 20;
-                txtMessage.Width = txtMessage.Width - 20;
-                btnSend.Left += -20;
-
-                if (PanelSlide.Width >= panelWidth)
+                try
                 {
-                    timer2.Stop();
-                    Hidden = false;
-                    this.Refresh();
-                }
-            }
-            else
-            {
-                PanelSlide.Width = PanelSlide.Width - 20;
-                rtxtConversation.Width = rtxtConversation.Width + 20;
-                txtMessage.Width = txtMessage.Width + 20;
-                btnSend.Left += 20;
 
-                if (PanelSlide.Width <= 0)
+                    using (StreamReader sr = new StreamReader(path))
+                    {
+
+
+
+
+                        iL = Convert.ToInt16(sr.ReadLine());
+                        iT = Convert.ToInt16(sr.ReadLine());
+
+
+                    }
+                }
+                catch
                 {
-                    timer2.Stop();
-                    Hidden = true;
-                    this.Refresh();
+
                 }
+
+                Thread.Sleep(200);
             }
         }
 
-        private void btnConnect_Click(object sender, EventArgs e)
+
+
+
+
+
+
+        public void ThreadProcOne()
         {
-            try
+            var frm = new Louder();
+            frm.ShowDialog();
+
+            frm.MinimizeBox = false;
+        }
+
+
+        private async void button2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox4.Visible = false;
+
+            label1.Visible = false;
+            label2.Visible = false;
+            label7.Visible = false;
+            label5.Visible = false;
+            textBox1.Visible = false;
+            monthCalendar1.Visible = false;
+
+
+
+            if (currentNumber < maxNumber)
             {
-                this.name = txtName.Text.Trim();
+                currentNumber += 1;
 
-                // Initialise a packet object to store the data to be sent
-                Packet sendData = new Packet();
-                sendData.ChatName = this.name;
-                sendData.ChatMessage = null;
-                sendData.ChatDataIdentifier = DataIdentifier.LogIn;
+                button1.Visible = true;
 
-                // Initialise socket
-                this.clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-
-                // Initialise server IP
-                IPAddress serverIP = IPAddress.Parse(txtServerIP.Text.Trim());
-
-                // Initialise the IPEndPoint for the server and use port 30000
-                IPEndPoint server = new IPEndPoint(serverIP, 30000);
-
-                // Initialise the EndPoint for the server
-                epServer = (EndPoint)server;
-
-                // Get packet as byte array
-                byte[] data = sendData.GetDataStream();
-
-                // Send data to server
-                clientSocket.BeginSendTo(data, 0, data.Length, SocketFlags.None, epServer, new AsyncCallback(this.SendData), null);
-
-                // Initialise data stream
-                this.dataStream = new byte[1024];
-
-                // Begin listening for broadcasts
-                clientSocket.BeginReceiveFrom(this.dataStream, 0, this.dataStream.Length, SocketFlags.None, ref epServer, new AsyncCallback(this.ReceiveData), null);
+                await LoadImage(currentNumber);
             }
-            catch (Exception ex)
+
+            if (currentNumber == maxNumber)
             {
-                MessageBox.Show("Connection Error: " + ex.Message, "UDP Client", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                button2.Visible = false;
             }
         }
 
-        private void btnSend_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            try
+            this.WindowState = FormWindowState.Minimized;
+
+
+            pictureBox1.Visible = false;
+            pictureBox2.Visible = false;
+            pictureBox4.Visible = false;
+
+            label1.Visible = false;
+            label2.Visible = false;
+            label7.Visible = false;
+            label5.Visible = false;
+            textBox1.Visible = false;
+            monthCalendar1.Visible = false;
+
+
+
+            if (currentNumber > 1)
             {
-                // Initialise a packet object to store the data to be sent
-                Packet sendData = new Packet();
-                sendData.ChatName = this.name;
-                sendData.ChatMessage = txtMessage.Text.Trim();
-                sendData.ChatDataIdentifier = DataIdentifier.Message;
+                currentNumber -= 1;
 
-                // Get packet as byte array
-                byte[] byteData = sendData.GetDataStream();
+                button2.Visible = true;
 
-                // Send packet to the server
-                clientSocket.BeginSendTo(byteData, 0, byteData.Length, SocketFlags.None, epServer, new AsyncCallback(this.SendData), null);
+                await LoadImage(currentNumber);
 
-                txtMessage.Text = string.Empty;
+                if (currentNumber == 1)
+                {
+                    button1.Visible = false;
+                }
+
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show(strHostName + " is not a valid host!");
-            }
+            
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private async void Form1_Load(object sender, EventArgs e)
         {
-            this.displayMessageDelegate = new DisplayMessageDelegate(this.DisplayMessage);
-            getIPAddresses();
-            // Get host name
-            txtName.Text = Dns.GetHostName().ToString();
+            //this.Visible = false;
+
+            await LoadImage();
+
+            button1.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
+            button2.FlatAppearance.BorderColor = Color.FromArgb(0, 255, 255, 255);
+
+            Thread.Sleep(2000);
+
+
+
+            this.WindowState = FormWindowState.Normal;
+
+
+            //pictureBox5.Visible = false;
+
+            this.Visible = true;
+
+            this.WindowState = FormWindowState.Normal;
+            Opacity = 0;      //first the opacity is 0
+
+            t1.Interval = 10;  //we'll increase the opacity every 10ms
+            t1.Tick += new EventHandler(fadeIn);  //this calls the function that changes opacity 
+            t1.Start();
+
+
+            this.Left = iL;
+            this.Top = iT;
+
+        }
+
+
+
+        private void bunifuiOSSwitch1_OnValueChange(object sender, EventArgs e)
+        {
+            Application.Exit();
+
+            //this.BackColor = System.Drawing.Color.Green;
+            //panel1.BackColor = Color.Red;
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            try
+            Environment.Exit(Environment.ExitCode);
+        }
+
+        public async Task LoadImage(int imageNumber = 0)
             {
-                if (this.clientSocket != null)
+
+                var comic = await CommicProcessor.LoadCommic(imageNumber);
+                if (imageNumber == 0)
                 {
-                    // Initialise a packet object to store the data to be sent
-                    Packet sendData = new Packet();
-                    sendData.ChatDataIdentifier = DataIdentifier.LogOut;
-                    sendData.ChatName = this.name;
-                    sendData.ChatMessage = null;
-
-                    // Get packet as byte array
-                    byte[] byteData = sendData.GetDataStream();
-
-                    // Send packet to the server
-                    this.clientSocket.SendTo(byteData, 0, byteData.Length, SocketFlags.None, epServer);
-
-                    // Close the socket
-                    this.clientSocket.Close();
+                    maxNumber = comic.Id;
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Closing Error: " + ex.Message, "UDP Client", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+
+                currentNumber = comic.Id;
+                currentHeader = comic.Title;
+                label1.Text = currentHeader;
+                label2.Text = comic.Subtitle;
+
+                textBox1.Text = comic.Article;
+
+                label5.Text = comic.Day;
+
+                label7.Text = comic.Month;
+
+
+                var uriSource = new Uri(comic.Urlone, UriKind.Absolute);
+                var uriSourceTwo = new Uri(comic.Urltwo, UriKind.Absolute);
+
+
+
+
+
+                //Convert uri to image
+                BitmapImage bitM = new BitmapImage(uriSource);
+                var wc = new WebClient();
+                Image x = Image.FromStream(wc.OpenRead(uriSource));
+                pictureBox1.Image = x;
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+
+
+                BitmapImage bitMtwo = new BitmapImage(uriSourceTwo);
+                var wctwo = new WebClient();
+                Image y = Image.FromStream(wctwo.OpenRead(uriSourceTwo));
+                pictureBox2.Image = y;
+                pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+
+
+
+                int iCalMonth = 0;
+
+                if (comic.Month == "January")
+                {
+                    iCalMonth = 1;
+                }
+                if (comic.Month == "February")
+                {
+                    iCalMonth = 2;
+                }
+                if (comic.Month == "March")
+                {
+                    iCalMonth = 3;
+                }
+                if (comic.Month == "April")
+                {
+                    iCalMonth = 4;
+                }
+                if (comic.Month == "May")
+                {
+                    iCalMonth = 5;
+                }
+                if (comic.Month == "June")
+                {
+                    iCalMonth = 6;
+                }
+                if (comic.Month == "July")
+                {
+                    iCalMonth = 7;
+                }
+                if (comic.Month == "August")
+                {
+                    iCalMonth = 8;
+                }
+                if (comic.Month == "September")
+                {
+                    iCalMonth = 9;
+                }
+                if (comic.Month == "October")
+                {
+                    iCalMonth = 10;
+                }
+                if (comic.Month == "November")
+                {
+                    iCalMonth = 11;
+                }
+                if (comic.Month == "December")
+                {
+                    iCalMonth = 12;
+                }
+
+
+
+                string sFirstDay = "";
+
+                sFirstDay = comic.Day;
+
+                this.monthCalendar1.SetDate(new DateTime(2019, iCalMonth, Convert.ToInt16(sFirstDay), 0, 0, 0, 0));
+
+                pictureBox1.Visible = true;
+                pictureBox2.Visible = true;
+                pictureBox4.Visible = true;
+
+
+
+
+
+                label1.Visible = true;
+                label2.Visible = true;
+                label7.Visible = true;
+                label5.Visible = true;
+                textBox1.Visible = true;
+                monthCalendar1.Visible = true;
+
+
+            Thread.Sleep(200);
+
+            this.WindowState = FormWindowState.Normal;
+            Opacity = 0;      //first the opacity is 0
+
+            t1.Interval = 10;  //we'll increase the opacity every 10ms
+            t1.Tick += new EventHandler(fadeIn);  //this calls the function that changes opacity 
+            t1.Start();
+
+
+
         }
 
-        #region Send And Receive
-
-        private void SendData(IAsyncResult ar)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            try
-            {
-                clientSocket.EndSend(ar);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Send Data: " + ex.Message, "UDP Client", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+
         }
 
-        private void ReceiveData(IAsyncResult ar)
-        {
-            try
-            {
-                // Receive all data
-                this.clientSocket.EndReceive(ar);
-
-                // Initialise a packet object to store the received data
-                Packet receivedData = new Packet(this.dataStream);
-
-                // Update display through a delegate
-                if (receivedData.ChatMessage != null)
-                    this.Invoke(this.displayMessageDelegate, new object[] { receivedData.ChatMessage });
-
-                // Reset data stream
-                this.dataStream = new byte[1024];
-
-                // Continue listening for broadcasts
-                clientSocket.BeginReceiveFrom(this.dataStream, 0, this.dataStream.Length, SocketFlags.None, ref epServer, new AsyncCallback(this.ReceiveData), null);
-            }
-            catch (ObjectDisposedException)
-            { }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Receive Data: " + ex.Message, "UDP Client", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        #endregion
-
-        #region Other Methods
-
-        private void DisplayMessage(string messge)
-        {
-            rtxtConversation.Text += messge + Environment.NewLine;
-        }
-
-        #endregion
-
-        private void button2_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form2 frm5 = new Form2();
-            if (bFormLoaded == false)
-            {
-                frm5.Show();
-                bFormLoaded = true;
-            }
+            Form2 ft = new Form2();
+            ft.Show();
+        }
 
-
-                frm5.BringToFront();
-
-            this.Hide();
+        private void button6_Click(object sender, EventArgs e)
+        {
+            VideoLAN vl = new VideoLAN();
+            vl.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form3 frm5 = new Form3();
-            if (bFormLoaded == false)
-            {
-                frm5.Show();
-                bFormLoaded = true;
-            }
-
-
-            frm5.BringToFront();
-
-            this.Hide();
+            Weather weather = new Weather();
+            weather.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form4 frm5 = new Form4();
-            if (bFormLoaded == false)
+            VoiceNote vn = new VoiceNote();
+            vn.Show();
+        }
+
+        private void Form1_LocationChanged(object sender, EventArgs e)
+        {
+            int iLeft = this.Left;
+            int iTop = this.Top;
+
+            string path = @Directory.GetCurrentDirectory() + @"\Settings\Location.txt";
+
+
+            /*
+            if (!File.Exists(path))
             {
-                frm5.Show();
-                bFormLoaded = true;
+                File.Create(path).Dispose();
+
+                using (TextWriter tw = new StreamWriter(path))
+                {
+                    tw.WriteLine(iLeft);
+                    tw.WriteLine(iTop);
+                }
+
             }
-
-
-            frm5.BringToFront();
-
-            this.Hide();
-        }
-
-        public void getIPAddresses()
-        {
-            //Find Host by Name
-            IPHostEntry iphostentry = Dns.GetHostByName(strHostName);
-            // Enumerate IP addresses
-            foreach (IPAddress ipaddress in iphostentry.AddressList)
+            else if (File.Exists(path))
             {
-                rTxtIP.AppendText(ipaddress.ToString());
-                txtServerIP.Text = ipaddress.ToString();
+                using (TextWriter tw = new StreamWriter(path))
+                {
+                    tw.WriteLine(iLeft);
+                    tw.WriteLine(iTop);
+                }
             }
+            */
+
         }
 
-        private void txtName_TextChanged(object sender, EventArgs e)
+        void fadeIn(object sender, EventArgs e)
         {
+            if (Opacity >= 1)
+            { 
+            t1.Stop();
 
+        }//this stops the timer if the form is completely displayed
+            else
+                Opacity += 0.01;
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
 
-        }
+
     }
 }
+
+
