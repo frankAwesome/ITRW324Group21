@@ -37,6 +37,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.bunifuiOSSwitch1 = new Bunifu.Framework.UI.BunifuiOSSwitch();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.cmdCopy = new System.Windows.Forms.Button();
             this.cmdClear = new System.Windows.Forms.Button();
@@ -52,7 +53,8 @@
             this.txtResponse = new System.Windows.Forms.TextBox();
             this.txtRequestURI = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -81,7 +83,8 @@
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.Location = new System.Drawing.Point(220, 13);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 25);
+            this.pictureBox1.Size = new System.Drawing.Size(30, 32);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
             // 
@@ -124,11 +127,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Location = new System.Drawing.Point(-6, 85);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(188, 440);
             this.panel1.TabIndex = 18;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(18, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(89, 20);
+            this.label6.TabIndex = 32;
+            this.label6.Text = "Here, new ";
             // 
             // bunifuDragControl1
             // 
@@ -261,7 +277,7 @@
             this.txtRequestURI.Name = "txtRequestURI";
             this.txtRequestURI.Size = new System.Drawing.Size(330, 20);
             this.txtRequestURI.TabIndex = 19;
-            this.txtRequestURI.Text = "https://localhost:44367/api/values";
+            this.txtRequestURI.Text = "https://localhost:44367/api/values/";
             // 
             // label7
             // 
@@ -272,16 +288,27 @@
             this.label7.TabIndex = 33;
             this.label7.Text = "POST:";
             // 
-            // label6
+            // label8
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(29, 41);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 36);
-            this.label6.TabIndex = 32;
-            this.label6.Text = "WIP";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label8.Location = new System.Drawing.Point(18, 41);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(161, 20);
+            this.label8.TabIndex = 33;
+            this.label8.Text = "announcements can";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label9.Location = new System.Drawing.Point(18, 69);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(88, 20);
+            this.label9.TabIndex = 34;
+            this.label9.Text = "be posted.";
             // 
             // VideoLAN
             // 
@@ -345,5 +372,7 @@
         private System.Windows.Forms.TextBox txtRequestURI;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
     }
 }

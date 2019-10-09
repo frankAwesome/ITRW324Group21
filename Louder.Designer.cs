@@ -33,18 +33,20 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuiOSSwitch1 = new Bunifu.Framework.UI.BunifuiOSSwitch();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnManual = new System.Windows.Forms.Button();
             this.btnSetttings = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -72,13 +74,15 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.bunifuiOSSwitch1);
@@ -86,6 +90,29 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1037, 95);
             this.panel1.TabIndex = 14;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(536, 58);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(54, 15);
+            this.label6.TabIndex = 41;
+            this.label6.Text = "API Tools";
+            // 
+            // button6
+            // 
+            this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
+            this.button6.Location = new System.Drawing.Point(545, 19);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(37, 36);
+            this.button6.TabIndex = 40;
+            this.button6.UseVisualStyleBackColor = true;
             // 
             // pictureBox3
             // 
@@ -119,17 +146,6 @@
             this.button4.TabIndex = 37;
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(530, 58);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 15);
-            this.label6.TabIndex = 36;
-            this.label6.Text = "LAN video";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -151,17 +167,6 @@
             this.label3.Size = new System.Drawing.Size(69, 15);
             this.label3.TabIndex = 31;
             this.label3.Text = "File transfer";
-            // 
-            // button6
-            // 
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(545, 19);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(37, 36);
-            this.button6.TabIndex = 34;
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
@@ -216,6 +221,28 @@
             this.btnSetttings.TabIndex = 24;
             this.btnSetttings.UseVisualStyleBackColor = true;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.Location = new System.Drawing.Point(835, 58);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(85, 15);
+            this.label9.TabIndex = 43;
+            this.label9.Text = "Speech to Text";
+            // 
+            // button7
+            // 
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.Location = new System.Drawing.Point(857, 19);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(37, 36);
+            this.button7.TabIndex = 42;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // Louder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -248,14 +275,16 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnManual;
         private System.Windows.Forms.Button btnSetttings;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button7;
     }
 }

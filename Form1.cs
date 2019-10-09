@@ -378,6 +378,12 @@ namespace WindowsFormsApp9
             vn.Show();
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Speech sph = new Speech();
+            sph.Show();
+        }
+
         private void Form1_LocationChanged(object sender, EventArgs e)
         {
             int iLeft = this.Left;

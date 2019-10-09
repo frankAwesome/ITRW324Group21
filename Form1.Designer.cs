@@ -57,6 +57,8 @@
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.btnSetttings = new System.Windows.Forms.Button();
             this.btnManual = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -149,6 +151,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(189)))), ((int)(((byte)(227)))));
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.button7);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.button4);
@@ -203,11 +207,11 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(530, 58);
+            this.label6.Location = new System.Drawing.Point(536, 58);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 15);
+            this.label6.Size = new System.Drawing.Size(54, 15);
             this.label6.TabIndex = 28;
-            this.label6.Text = "LAN video";
+            this.label6.Text = "API Tools";
             // 
             // label4
             // 
@@ -233,6 +237,7 @@
             // 
             // button6
             // 
+            this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
@@ -348,6 +353,29 @@
             this.btnManual.TabIndex = 23;
             this.btnManual.UseVisualStyleBackColor = true;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.Location = new System.Drawing.Point(835, 58);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(85, 15);
+            this.label9.TabIndex = 33;
+            this.label9.Text = "Speech to Text";
+            // 
+            // button7
+            // 
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.Location = new System.Drawing.Point(857, 19);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(37, 36);
+            this.button7.TabIndex = 32;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -418,6 +446,8 @@
         private System.Windows.Forms.Button btnSetttings;
         private System.Windows.Forms.Button btnManual;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Button button7;
     }
 }
 
