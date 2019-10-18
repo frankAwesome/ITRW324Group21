@@ -39,6 +39,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
@@ -57,8 +59,6 @@
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.btnSetttings = new System.Windows.Forms.Button();
             this.btnManual = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -169,6 +169,29 @@
             this.panel1.TabIndex = 13;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.Location = new System.Drawing.Point(835, 58);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(85, 15);
+            this.label9.TabIndex = 33;
+            this.label9.Text = "Speech to Text";
+            // 
+            // button7
+            // 
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.Location = new System.Drawing.Point(857, 19);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(37, 36);
+            this.button7.TabIndex = 32;
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
@@ -207,11 +230,11 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(536, 58);
+            this.label6.Location = new System.Drawing.Point(546, 58);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 15);
+            this.label6.Size = new System.Drawing.Size(34, 15);
             this.label6.TabIndex = 28;
-            this.label6.Text = "API Tools";
+            this.label6.Text = "POST";
             // 
             // label4
             // 
@@ -341,6 +364,7 @@
             this.btnSetttings.Size = new System.Drawing.Size(37, 36);
             this.btnSetttings.TabIndex = 22;
             this.btnSetttings.UseVisualStyleBackColor = true;
+            this.btnSetttings.Click += new System.EventHandler(this.btnSetttings_Click);
             // 
             // btnManual
             // 
@@ -352,29 +376,6 @@
             this.btnManual.Size = new System.Drawing.Size(37, 36);
             this.btnManual.TabIndex = 23;
             this.btnManual.UseVisualStyleBackColor = true;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(835, 58);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(85, 15);
-            this.label9.TabIndex = 33;
-            this.label9.Text = "Speech to Text";
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(857, 19);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(37, 36);
-            this.button7.TabIndex = 32;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 

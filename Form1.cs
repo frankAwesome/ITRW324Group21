@@ -362,8 +362,8 @@ namespace WindowsFormsApp9
 
         private void button6_Click(object sender, EventArgs e)
         {
-            VideoLAN vl = new VideoLAN();
-            vl.Show();
+            PostNews pn = new PostNews();
+            pn.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -382,6 +382,12 @@ namespace WindowsFormsApp9
         {
             Speech sph = new Speech();
             sph.Show();
+        }
+
+        private void btnSetttings_Click(object sender, EventArgs e)
+        {
+            VideoLAN vl = new VideoLAN();
+            vl.Show();
         }
 
         private void Form1_LocationChanged(object sender, EventArgs e)

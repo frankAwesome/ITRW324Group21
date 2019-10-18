@@ -33,6 +33,8 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuiOSSwitch1 = new Bunifu.Framework.UI.BunifuiOSSwitch();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -45,8 +47,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnManual = new System.Windows.Forms.Button();
             this.btnSetttings = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -91,16 +91,38 @@
             this.panel1.Size = new System.Drawing.Size(1037, 95);
             this.panel1.TabIndex = 14;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label9.Location = new System.Drawing.Point(835, 58);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(85, 15);
+            this.label9.TabIndex = 43;
+            this.label9.Text = "Speech to Text";
+            // 
+            // button7
+            // 
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
+            this.button7.Location = new System.Drawing.Point(857, 19);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(37, 36);
+            this.button7.TabIndex = 42;
+            this.button7.UseVisualStyleBackColor = true;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(536, 58);
+            this.label6.Location = new System.Drawing.Point(546, 58);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 15);
+            this.label6.Size = new System.Drawing.Size(34, 15);
             this.label6.TabIndex = 41;
-            this.label6.Text = "API Tools";
+            this.label6.Text = "POST";
             // 
             // button6
             // 
@@ -220,28 +242,6 @@
             this.btnSetttings.Size = new System.Drawing.Size(37, 36);
             this.btnSetttings.TabIndex = 24;
             this.btnSetttings.UseVisualStyleBackColor = true;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(835, 58);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(85, 15);
-            this.label9.TabIndex = 43;
-            this.label9.Text = "Speech to Text";
-            // 
-            // button7
-            // 
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(857, 19);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(37, 36);
-            this.button7.TabIndex = 42;
-            this.button7.UseVisualStyleBackColor = true;
             // 
             // Louder
             // 
